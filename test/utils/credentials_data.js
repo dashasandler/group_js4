@@ -1,10 +1,3 @@
-// export function generateUserEmail(length, characters) {
-//     let first = "test.";
-//     for (let i = 0; i < length; i++) {
-//         first += characters.charAt(
-//             Math.floor(Math.random() * characters.length)
-//         );
-//     }
-//     return first + "@gmail.com";
-// }
-// ;
+module.exports = {
+    credentialsData: { email: "vic.st.p@gmail.com", password: "Test-1234"},
+};

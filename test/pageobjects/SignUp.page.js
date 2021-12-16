@@ -1,6 +1,6 @@
 const Page = require('./Page');
 
-class SignInPage extends Page {
+class SignUpPage extends Page {
 
     get inputEmail() {
         return $('#email');
@@ -30,4 +30,4 @@ class SignInPage extends Page {
     }
 }
 
-module.exports = new SignInPage();
+module.exports = new SignUpPage();

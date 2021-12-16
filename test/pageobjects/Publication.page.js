@@ -1,7 +1,7 @@
 const Page = require('./page');
 
 class PublicationPage extends Page {
-    get h6() {
+    get headerPublicationTitle() {
         return $("//h6[text()='publications']")
     }
 
