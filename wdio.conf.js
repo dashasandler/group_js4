@@ -1,4 +1,4 @@
-const url = "https://enduring.herokuapp.com/login"
+const url = "https://enduring.herokuapp.com"
 exports.config = {
     //
     // ====================
@@ -52,7 +52,7 @@ exports.config = {
     //
     capabilities: [
         {
-            maxInstances: 1,
+            maxInstances: 5,
             browserName: 'chrome',
         }//,
         // {
