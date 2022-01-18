@@ -1,4 +1,4 @@
-const url = "https://enduring.herokuapp.com"
+const url = "https://enduring.netlify.app/"
 exports.config = {
     //
     // ====================
@@ -10,7 +10,7 @@ exports.config = {
     // Specify Test Files
     // ==================
     // Define which test specs should run. The pattern is relative to the directory
-    // from which `wdio` was called.
+    //
     //
     // The specs are defined as an array of spec files (optionally using wildcards
     // that will be expanded). The test for each spec file will be run in a separate
